@@ -30,4 +30,14 @@ public class Empregado extends Pessoa{
     public getimposto(){
         return this.imposto;
     }
+
+    //---até aqui ok!
+//Calcular salário
+//Com o vídeo 1, 15 minutos....continuar 
+public double calculoSalario(){
+    double salarioLiquido=0;
+
+    salarioLiquido=this.salarioBase.this.imposto;
+    return salarioLiquido ;
+}
 }
