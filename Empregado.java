@@ -17,12 +17,15 @@ public class Empregado extends Pessoa{
     return this.godigoSetor;
     }
 
+
     public void setSalarioBase(double salarioBase){
         this.salarioBase=salarioBase;
     }
     public getsalarioBase(){
         return this.salarioBase;
     }
+
+
 
     public void setImposto(double imposto){
         this.imposto=imposto;
@@ -36,8 +39,11 @@ public class Empregado extends Pessoa{
 //Com o vídeo 1, 15 minutos....continuar 
 public double calculoSalario(){
     double salarioLiquido=0;
+    salarioLiquido=this.salarioBase-this.imposto;
+    return salarioLiquido;
 
     salarioLiquido=this.salarioBase.this.imposto;
     return salarioLiquido ;
 }
+
 }

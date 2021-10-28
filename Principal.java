@@ -17,7 +17,5 @@ public class Principal{
 //  o setor, imagino com if ou while 
         System.out.println(' ')
 
-
-
     }
 }

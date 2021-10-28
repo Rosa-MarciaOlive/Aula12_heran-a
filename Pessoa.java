@@ -4,9 +4,12 @@ public class Pessoa{
     private String telefone;
     private String endereço;
 
+
 //Construtor padrão, tem o nome ad classe e sem parâmetros
 public Pessoa(){
     }
+
+
 //Construtor padrão com 1 parâmetro
 public Pessoa(String nome){
     this.nome=nome;
@@ -16,6 +19,8 @@ public Pessoa(String nome,String telefone){
     this.nome;
     this.telefone=telefone;
     }
+
+
   
 //set--> metodo de alteração
 public void setNome(String nome){
@@ -25,6 +30,8 @@ public void setNome(String nome){
 public String getNome(){
     return this.nome;
     }
+
+
 //
 public void setTelefone(String telefone){
     this.telefone=telefone;
@@ -32,6 +39,8 @@ public void setTelefone(String telefone){
 public String getTelefone(){
     return this.telefone;
     }
+
+
 //
 public void setEndereço(String endereço){
     this.endereço=endereço;
