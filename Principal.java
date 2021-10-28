@@ -15,7 +15,7 @@ public class Principal{
         e.setImposto();
 //Acessar com código individual de cada empregado mas primeiro escolhendo
 //  o setor, imagino com if ou while 
-        System.out.println('')
+        System.out.println(' ')
 
 
 
