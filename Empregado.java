@@ -14,7 +14,7 @@ public class Empregado extends Pessoa{
         this.codigoSetor=codigoSetor;
     }
 //get-->Métode de consulta
-    public int getcodigoSetor(){
+    public int getCodigoSetor(){
         return this.codigoSetor;
     }
 
@@ -22,7 +22,7 @@ public class Empregado extends Pessoa{
     public void setSalarioBase(double salarioBase){
         this.salarioBase=salarioBase;
     }
-    public double getsalarioBase(){
+    public double getSalarioBase(){
         return this.salarioBase;
     }
 
@@ -30,7 +30,7 @@ public class Empregado extends Pessoa{
     public void setImposto(double imposto){
         this.imposto=imposto;
     }
-    public double getimposto(){
+    public double getImposto(){
         return this.imposto;
     }
 
