@@ -4,6 +4,7 @@ public class Empregado extends Pessoa{
 //(porcentagem retida dos impostos)
 
 //nome endereço não precisa
+//todos atributos(private) precisam de 2 métodos pr acessa-los -->set get
     private int codigoSetor;
     private double salarioBase;
     private double imposto;
