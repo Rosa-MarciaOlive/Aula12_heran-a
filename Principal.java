@@ -13,9 +13,10 @@ public class Principal{
         e.setCodigoSetor();
         e.setSalarioBase();
         e.setImposto();
-//Acessar com código individual de cada empregado mas primeiro escolhendo
-//  o setor, imagino com if ou while 
-        System.out.println(' ')
+
+//Acessar com código individual de cada empregado---, mas primeiro escolhendo
+//  o setor---, imagino com for dentro do while pr return de um loop ---e opção de final.
+        System.out.println('Digite o setor:')
 
     }
 }
