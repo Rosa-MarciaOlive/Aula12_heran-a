@@ -5,7 +5,7 @@ public class Pessoa{
     private String endereço;
 
 
-//Construtor padrão, tem o nome ad classe e sem parâmetros
+//Construtor padrão, tem o nome da classe, e sem parâmetros
 public Pessoa(){
     }
 
@@ -14,14 +14,15 @@ public Pessoa(){
 public Pessoa(String nome){
     this.nome=nome;
     }
+
+
 //Construtor padrão com 2 parâmetro
 public Pessoa(String nome,String telefone){
-    this.nome;
+    this.nome=nome;
     this.telefone=telefone;
     }
 
-
-  
+ 
 //set--> metodo de alteração
 public void setNome(String nome){
     this.nome=nome;

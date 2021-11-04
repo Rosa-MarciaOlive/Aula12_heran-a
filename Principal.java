@@ -1,5 +1,5 @@
 public class Principal{
-    public static void main(String[]args){
+    public static void (String[]args){
 //Acionar o arquivo Pessoar por aqui:
         Pessoa p=new Pessoa();
         p.setNome();

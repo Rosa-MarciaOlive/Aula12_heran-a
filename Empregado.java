@@ -10,40 +10,39 @@ public class Empregado extends Pessoa{
 
 //set-->Método de alteração
     public void setCodigoSetor(int codigoSetor){
-    this.codigoSetor=godigoSetor;
+        this.codigoSetor=codigoSetor;
     }
 //get-->Métode de consulta
-    public String getgodigoSetor(){
-    return this.godigoSetor;
+    public int getcodigoSetor(){
+        return this.codigoSetor;
     }
 
 
     public void setSalarioBase(double salarioBase){
         this.salarioBase=salarioBase;
     }
-    public getsalarioBase(){
+    public double getsalarioBase(){
         return this.salarioBase;
     }
-
 
 
     public void setImposto(double imposto){
         this.imposto=imposto;
     }
-    public getimposto(){
+    public double getimposto(){
         return this.imposto;
     }
 
     //---até aqui ok!
-//Calcular salário
+//Calcular salário liquido
 //Com o vídeo 1, 15 minutos....continuar 
-public double calculoSalario(){
-    double salarioLiquido=0;
-    salarioLiquido=this.salarioBase-this.imposto;
-    return salarioLiquido;
+    public double calculoSalario(){
+        double salarioLiquido=0;
 
-    salarioLiquido=this.salarioBase.this.imposto;
-    return salarioLiquido ;
+        salarioLiquido=this.salarioBase-this.imposto;
+    
+        return salarioLiquido;
+
 }
 
 }
